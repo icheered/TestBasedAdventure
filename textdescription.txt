@@ -1,0 +1,20 @@
+[sectionname]
+You can put lines of text here
+You can ask the user to input some text like this:
++username[Enter your name]
+And you can use it in a sentence like this. Hello {username}!
+You can go to a different section using an @ like this:
+@anothersection
+
+[anothersection]
+You can also give the user a choice where they want to go by having subsequent lines starting with an @. Between square brackets you provide the text to be printed for that option, and between round brackets you provide valid keyboard inputs that select that option. Like this:
+@left[Go left](left l)
+@right[Go right](right r)
+
+[left]
+You went left
+@end
+
+[right]
+You went right
+@end

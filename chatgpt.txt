@@ -1,0 +1,108 @@
+[start]
+You find yourself standing in a dark forest with no memory of how you got here. You see a path leading north, and a path leading east.
+Which way do you want to go?
+@north[Go north](north n)
+@east[Go east](east e)
+
+[north]
+As you walk north, the trees become denser and the path narrower. Suddenly, you hear a loud growling sound coming from the bushes.
+Do you investigate the sound or go back to the path?
+@investigate[Investigate the sound](investigate i)
+@back[Go back to the path](back b)
+
+[investigate]
+You slowly approach the bushes, and see a wounded wolf lying on the ground. It looks up at you with pleading eyes. What do you do?
+@help[Help the wolf](help h)
+@leave[Leave the wolf](leave l)
+
+[help]
+You approach the wolf and try to heal its wounds. The wolf lets out a grateful whimper and licks your hand. Suddenly, the forest around you starts to glow and you find yourself transported to a beautiful meadow.
+Congratulations, you have completed the game!
+@end
+
+[leave]
+You ignore the wolf's pleas and continue on your journey. As you walk away, you hear a low growl behind you. Suddenly, a pack of wolves appears and attacks you.
+Game over.
+@end
+
+[back]
+You decide not to investigate the sound and go back to the path. You come across a river, but the bridge is broken. What do you do?
+@swim[Swim across the river](swim s)
+@search[Search for another way across](search a)
+
+[swim]
+You jump into the river and start swimming across. Halfway through, you realize the current is too strong and you are being swept away. You struggle to stay afloat, but eventually drown.
+Game over.
+@end
+
+[search]
+You spend some time looking for another way across and eventually find a fallen tree that you can use as a makeshift bridge. You cross the river safely and continue on your journey.
+You come across a village, where the locals tell you that you were cursed by a witch and your memory was erased. They offer to help you break the curse and regain your memories.
+Congratulations, you have completed the game!
+@end
+
+[east]
+You walk down the path and come across a cave. It looks dark and ominous.
+Do you enter the cave or continue on the path?
+@entercave[Enter the cave](enter e)
+@continue[Continue on the path](continue c)
+
+[entercave]
+You cautiously enter the cave and find yourself face to face with a giant spider. It looks hungry.
+Do you fight the spider or run away?
+@fight[Fight the spider](fight f)
+@run[Run away](run r)
+
+[fight]
+You draw your sword and charge at the spider. The spider is quick and agile, but you manage to land a few good hits. Eventually, the spider retreats and disappears into the darkness. You find a chest filled with gold and treasures.
+Congratulations, you have completed the game!
+@end
+
+[run]
+You turn around and start running away from the spider, but you trip and fall. The spider quickly catches up to you and bites you. You feel the venom coursing through your veins, and everything goes black.
+Game over.
+@end
+
+[continue]
+You continue on the path and come across a castle. It looks abandoned and haunted.
+Do you enter the castle or keep walking?
+@entercastle[Enter the castle](enter e)
+@walk[Keep walking](walk w)
+
+[entercastle]
+You enter the castle and hear strange noises coming from the halls. Suddenly, a ghostly figure appears in front of you and tries to scare you away.
+Do you try to communicate with the ghost or run away?
+@communicate[Try to communicate with the ghost](c)
+@run[Run away](r)
+
+[communicate]
+You try to communicate with the ghost and find out that it is the spirit of a former king who was murdered by his own brother. The ghost asks for your help in avenging his death.
+Do you agree to help the ghost or leave the castle?
+@help[Agree to help the ghost](a)
+@leave[Leave the castle](l)
+
+[help]
+You agree to help the ghost and set out to find evidence against the traitorous brother. After a long and perilous journey, you find the evidence and bring the brother to justice. The ghostly king thanks you and disappears, leaving behind a magical amulet as a reward.
+Congratulations, you have completed the game!
+@end
+
+[leave]
+You decide to leave the castle and continue on your journey. As you walk away, you hear a chilling laughter behind you. Suddenly, the castle disappears and you find yourself standing in the dark forest again.
+Game over.
+@end
+
+[walk]
+You decide not to enter the castle and keep walking down the path. You come across a group of bandits who demand that you hand over all your valuables.
+Do you fight the bandits or give them your valuables?
+@fight[Fight the bandits](f)
+@give[Give them your valuables](v)
+
+[fight]
+You draw your sword and charge at the bandits. They are skilled fighters, but you manage to defeat them and take their loot. You continue on your journey, feeling stronger and more confident.
+Congratulations, you have completed the game!
+@end
+
+[give]
+You reluctantly hand over your valuables to the bandits and continue on your journey. As you walk away, you hear the bandits laughing and celebrating their new loot.
+Game over.
+@end

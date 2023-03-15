@@ -1,0 +1,26 @@
+[start]
+You start the game
+What is your name?
++username[Name]
+Hello {username}!
+
+Do you want to pick up the item?
+;
+@itempickup[Pick up](yes y)
+@itemnotpickup[Don't pick up](no n)
+
+[itempickup]
+You pick up the item
+@forest
+
+[itemnotpickup]
+You do not pick up the item
+@forest
+
+[forest]
+You enter the forest
+@grandfinale
+
+[grandfinale]
+This is the end!
+@end
