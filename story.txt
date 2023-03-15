@@ -5,7 +5,6 @@ What is your name?
 Hello {username}!
 
 Do you want to pick up the item?
-;
 @itempickup[Pick up](yes y)
 @itemnotpickup[Don't pick up](no n)
 
